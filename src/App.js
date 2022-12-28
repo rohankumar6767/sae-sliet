@@ -1,12 +1,13 @@
-import './App.css';
-import Navbar from './components/Navbar';
+import React from 'react';
 
-function App() {
-  return (
-    <>
-      <Navbar/>
-    </>
-  );
-}
+import './App.css';
+
+const App = () => (
+    <div className="app">
+        <div className="gradient__bg">
+            
+        </div>
+    </div>
+)
 
 export default App;
