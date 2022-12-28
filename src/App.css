@@ -5,14 +5,15 @@
     scroll-behavior: smooth;
 }
 
-/* body {
+body {
     background: var(--color-bg);
-} */
+}
 
 a {
     color: unset;
     text-decoration: none;
 }
+
 
 .gradient__bg {
     background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
@@ -30,8 +31,7 @@ a {
     background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
     height: 100vh;
-} 
-
+}
 
 .gradient__text {
     background: var(--gradient-text);

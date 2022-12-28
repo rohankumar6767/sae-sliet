@@ -114,22 +114,18 @@
     flex-direction: column;
     text-align: end;
     background: var(--color-footer);
-    padding: 2rem;
+    padding: 0.5rem;
     position: absolute;
     right: 0;
     top: 40px;
     margin-top: 1rem;
-    min-width: 210px;
+    /* min-width: 210px; */
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
 }
-
 .sae__navbar-menu_container p {
-    margin: 1rem 0;
-}
-
-.sae__navbar-menu_container-links-sign {
-    display: none;
+    margin: 1rem 1rem;
+    text-align: left;
 }
 
 @media screen and (max-width: 1050px) {
@@ -158,14 +154,6 @@
     }
 
     .sae__navbar-menu_container {
-        top: 20px;
+        top: 1rem; 
     }
-
-    .sae__navbar-menu_container-links-sign {
-        display: block;
-    }
-}
-
-.border{
-    border: 2px solid red;
 }
