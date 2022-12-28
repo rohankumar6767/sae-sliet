@@ -130,6 +130,10 @@
         padding: 0.35rem 0.7rem;
         font-size: 1rem;
     }
+    .sae_header_content_buttons a:hover{
+        padding: 0.35rem 0.7rem;
+        font-size: 1rem;
+    }
     .sae_header_content{
         padding: 0;
         margin: 0;
@@ -159,6 +163,10 @@
         padding: 0.35rem 0.7rem;
         font-size: 1rem;
     }
+    .sae_header_content_buttons a:hover{
+        padding: 0.35rem 0.7rem;
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width: 340px) {
     .sae_header_content{
@@ -185,6 +193,11 @@
         padding: 0;
     }
     .sae_header_content_buttons a{
+        padding: 0.3rem 0.7rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .sae_header_content_buttons a:hover{
         padding: 0.3rem 0.7rem;
         font-size: 1rem;
         margin-bottom: 1rem;
