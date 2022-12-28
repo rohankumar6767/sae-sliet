@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import {Navbar, Header} from './components/index'
+import {Navbar, Header, Teams} from './components/index'
 
 const App = () => (
     <div className="app">
@@ -9,6 +9,7 @@ const App = () => (
             <Navbar />
             <Header />
         </div>
+        <Teams />
     </div>
 )
 

@@ -77,7 +77,8 @@
     margin: 0rem 1rem;
 }
 .sae_header_content_buttons a:hover{
-    color: white;
+    color: whitesmoke;
+    font-style: bold;
     padding: 0.5rem 1rem;
     font-size: 1.3rem;
     letter-spacing: 0.12rem;

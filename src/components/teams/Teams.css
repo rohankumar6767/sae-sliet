@@ -1,0 +1,109 @@
+.sae_teams{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sae_teams hr{
+    color: var(--color-sae-sliet);
+    width: 90vw;
+}
+
+.sae_teams h1{
+    color: white;
+    padding-top: 2rem;
+    font-family: Impact;
+    font-weight: 50;
+    letter-spacing: 0.3rem;
+    font-size: 3rem
+}
+
+.sae_teams_container{
+    margin: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 0rem 2rem;
+}
+
+.boxes{
+    padding: 1rem;
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 0, 0, 0.3) 0px 1rem 2rem, rgba(255, 0, 0, 0.22) 0px 1rem 2rem;
+}
+.boxes:hover{
+    padding: 1rem;
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 0, 0, 0.715) 0px 1rem 2rem, rgba(255, 0, 0, 0.704) 0px 1rem 2rem;
+}
+
+.boxes img{
+    height: 5rem;
+    width: 5rem;
+}
+.boxes h2{
+    color: white;
+    text-align: center;
+    font-style: impact;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.boxes p{
+    color: white;
+    text-align: center;
+    margin: 0.5rem;
+}
+.boxes a{
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.7rem 3rem;
+    border-top: 1px solid var(--color-sae-sliet);
+    border-bottom: 1px solid var(--color-sae-sliet);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.boxes a:hover{
+    color: white;
+    margin: 1rem;
+    padding: 0.7rem 3rem;
+    border-top: 1px solid var(--color-sae-sliet);
+    border-bottom: 1px solid var(--color-sae-sliet);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--color-sae-sliet);
+    transition: all 0.5s ease-in-out;
+}
+
+/* Media Query  */
+
+@media screen and (max-width: 1000px) {
+    .sae_teams_container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .boxes{
+        margin: 1rem 0rem;
+    }
+    .sae_teams_container{
+        padding: 0rem 0rem;
+        margin: 0rem 1rem;
+    }
+    .boxes h2{
+        font-size: 1.5rem;
+    }
+    .boxes p{
+        font-size: 0.8rem;
+    }
+}
