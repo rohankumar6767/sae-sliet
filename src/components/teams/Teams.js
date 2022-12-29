@@ -5,8 +5,8 @@ import greenrangers_logo from '../../assets/team_greenrangers.png'
 export default function Teams() {
     return (
         <div className='sae_teams'>
-            <hr />
-            <h1>Teams</h1>
+            <hr className='saeHR'/>
+            <h1 className='saeHeading'>Teams</h1>
             <div className="sae_teams_container">
                 <div className="sae_team_container_box1 boxes">
                     <img src={greenrangers_logo} alt="" />

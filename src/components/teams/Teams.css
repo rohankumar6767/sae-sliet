@@ -4,14 +4,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
-.sae_teams hr{
+.saeHR{
+    margin-bottom: 1rem;
     color: var(--color-sae-sliet);
-    width: 90vw;
+    width: 98vw;
 }
 
-.sae_teams h1{
+.saeHeading{
     color: white;
     padding-top: 2rem;
     font-family: Impact;
@@ -44,6 +46,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: rgba(255, 0, 0, 0.715) 0px 1rem 2rem, rgba(255, 0, 0, 0.704) 0px 1rem 2rem;
+    transition: all 0.5s ease-in-out;
 }
 
 .boxes img{
@@ -91,8 +94,16 @@
         flex-wrap: wrap;
     }
 }
-
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 700px) {
+    .boxes{
+        margin: 1rem 0rem;
+        padding: 0rem 0rem;
+    }
+    .sae_teams_container{
+        padding: 0rem 0rem;
+    }
+}
+@media screen and (max-width: 400px) {
     .boxes{
         margin: 1rem 0rem;
     }

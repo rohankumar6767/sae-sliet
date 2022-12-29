@@ -16,7 +16,7 @@ const Navbar = () => {
             <p><a href="#home">Home</a></p>
             <p><a href="#wsae">Gallery</a></p>
             <p><a href="#possibility">Teams</a></p>
-            <p><a href="#features">Blog</a></p>
+            <p><a href="#features">About</a></p>
             <p><a href="#blog">Contact</a></p>
             </div>
         </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 <p><a href="#home">Home</a></p>
                 <p><a href="#wsae">Gallery</a></p>
                 <p><a href="#possibility">Teams</a></p>
-                <p><a href="#features">Blog</a></p>
+                <p><a href="#features">About</a></p>
                 <p><a href="#blog">Contact</a></p>
             </div>
             </div>

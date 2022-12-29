@@ -3,6 +3,9 @@ import './Footer.css';
 
 export default function Footer() {
     return (
-        <div>Footer</div>
+        <div className='sae_footer'>
+            <hr className='saeHR'/>
+            <h1 className='saeHeading'>SAE SLIET</h1>
+        </div>
     )
 }
