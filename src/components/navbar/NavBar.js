@@ -15,10 +15,11 @@ const Navbar = () => {
             </div>
             <div className="sae__navbar-links_container">
             <p><Link to="/">Home</Link></p>
-            <p><a href="#wsae">Gallery</a></p>
-            <p><a href="#possibility">Teams</a></p>
+            <p><Link to="/gallery">Gallery</Link></p>
+            <p><a href="/#Teams">Teams</a></p>
             <p><a href="#About">About</a></p>
             <p><a href="#blog">Contact</a></p>
+            <p><Link to="/query_form">Query</Link></p>
             </div>
         </div>
         <div className="sae__navbar-menu">
@@ -29,10 +30,11 @@ const Navbar = () => {
             <div className="sae__navbar-menu_container scale-up-center">
             <div className="sae__navbar-menu_container-links">
                 <p><a href="/">Home</a></p>
-                <p><a href="#wsae">Gallery</a></p>
-                <p><a href="#possibility">Teams</a></p>
+                <p><Link to="/gallery">Gallery</Link></p>
+                <p><a href="/#Teams">Teams</a></p>
                 <p><a href="#About">About</a></p>
                 <p><a href="#blog">Contact</a></p>
+                <p><Link to="/query_form">Query</Link></p>
             </div>
             </div>
             )}
