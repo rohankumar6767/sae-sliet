@@ -1,0 +1,207 @@
+.sae_query_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sae_query_img{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.sae_query_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sae_query_form h1{
+    padding-top: 2rem;
+    font-size: 4rem;
+    font-family: Impact;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.08rem;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+.input_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sae_query_form input{
+    background: transparent;
+    border: none;
+    margin: 0.5rem 1rem;
+    border-bottom: 2px solid var(--color-sae-sliet);
+    border-top: 2px solid var(--color-sae-sliet);
+    padding: 0.5rem 1rem;
+    padding-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 25rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+.sae_query_form input:hover{
+    border: 2px solid var(--color-sae-sliet);
+}
+.sae_query_form textarea:hover{
+    border: 2px solid var(--color-sae-sliet);
+}
+.sae_query_form textarea{
+    background: transparent;
+    border: none;
+    margin: 0.5rem 1rem;
+    border-bottom: 2px solid var(--color-sae-sliet);
+    border-top: 2px solid var(--color-sae-sliet);
+    padding: 0.5rem 1rem;
+    padding-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 25rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+.sae_query_form a{
+    background: rgb(94, 0, 0);
+    font-family: var(--font-family);
+    color: white;
+    margin: 0.5rem 1rem;
+    border-bottom: 2px solid var(--color-sae-sliet);
+    border-top: 2px solid var(--color-sae-sliet);
+    padding: 0.5rem 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.sae_query_form a:hover{
+    background-color: var(--color-sae-sliet);
+    transition: all 0.5s ease-in-out;
+}
+.sae_query_faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.sae_query_faq h1{
+    color: white;
+    letter-spacing: 0.08rem;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+.sae_query_faq_ques{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 90%;
+}
+.sae_query_faq_ques h3{
+    color: white;
+    font-family: var(--font-family);
+    letter-spacing: 0.08rem;
+    text-align: justify;
+    padding-bottom: 0.4rem;
+}
+.sae_query_faq_ques h4{
+    color: white;
+    font-family: var(--font-family);
+    letter-spacing: 0.08rem;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 1110px) {
+    .sae_query{
+        flex-direction: column;
+    }
+    .sae_query img{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .group{
+        width: 70%;
+    }
+    .bar{
+        width: 25rem;
+    }
+    .sae_query_form{
+        padding-top: 0rem;
+        margin-top: 0rem;
+    }
+    .sae_query_form h1{
+        padding-top: 0rem;
+        margin: 0;
+    }
+    input{
+        padding-top: 1.8rem;
+        font-size: 1.5rem;
+    }
+    label{
+        top: 1.4rem;
+        font-size: 0.5rem;
+    }
+    input:focus ~ label {
+        top: -0.2rem;
+    }
+    .sae_query_img{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sae_query_form input{
+        width: 15rem;
+    }
+    .sae_query_form textarea{
+        width: 15rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .bar{
+        width: 24rem;
+    }
+    .label{
+        font-size: 1rem;
+    }
+    .sae_query_img{
+        margin: 0;
+        padding: 0;
+    }
+    .sae_query_form h1{
+        font-size: 3rem;
+    }
+    .sae_query_form input{
+        width: 18rem;
+    }
+    .sae_query_form textarea{
+        width: 18rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .bar{
+        width: 15rem;
+    }
+    .sae_query_img{
+        margin: 0;
+        padding: 0;
+    }
+    .sae_query_form input{
+        width: 14rem;
+    }
+    .sae_query_form textarea{
+        width: 14rem;
+    }
+}

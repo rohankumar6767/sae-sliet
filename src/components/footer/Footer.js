@@ -5,10 +5,10 @@ import './Footer.css';
 import logo from '../../assets/sae-sliet-logos.jpg';
 import instagram from '../../assets/icons/instagram.png';
 import facebook from '../../assets/icons/facebook.png';
-import whatsapp from '../../assets/icons/whatsapp.png';
-import youtube from '../../assets/icons/youtube.png';
 import twitter from '../../assets/icons/twitter.png';
 import linkedin from '../../assets/icons/linkedin.png';
+import whatsapp from '../../assets/icons/whatsapp.png';
+import youtube from '../../assets/icons/youtube.png';
 
 
 export default function Footer() {
@@ -16,7 +16,6 @@ export default function Footer() {
         <div className='sae_footer'>
             <hr className='saeHR'/>
             <img src={logo} alt="No" />
-            {/* <p className='sae_footer_para'>Green Rangers | Junkyard Warriors | Juggernauts</p> */}
             <div className="sae_footer_social_media_links">
                 <a href="/"><img src={instagram} alt="" /></a>
                 <a href="/"><img src={facebook} alt="" /></a>

@@ -5,7 +5,7 @@ import advisor from '../../assets/advisor.jpg'
 
 export default function About() {
     return (
-        <div className='sae_about'>
+        <div className='sae_about' id='About'>
             <hr className='saeHR'/>
             <h1 className="saeHeading">About Us</h1>
             <p className='sae_about_para'>SAE India SLIET (Sant Longowal Institute of Engineering and Technology) Collegiate Club is to design, manufacture and test run the vehicles. To conduct competitions and provide first hand challenge to students for preparing them for participation in National level events. SAE SLIET is to facilitate students in pursuing their passion while managing real life demands and education priorities.</p>

@@ -16,21 +16,46 @@ a {
 
 
 .gradient__bg {
-    background:-moz-radial-gradient(circle at 0% 0%, rgb(83, 0, 0) 0%, rgba(4, 12, 24, 1) 70%);
+    
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(178deg, rgba(115, 0, 0, 0.87) 100%, rgba(0, 0, 0, 1) 100%); 
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 0% 0%, rgb(83, 0, 0) 0%, rgba(4, 12, 24, 1) 70%);
+    background:-webkit-linear-gradient(178deg, rgba(115, 0, 0, 0.87) 100%, rgba(0, 0, 0, 1) 100%);
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 0% 0%, rgb(83, 0, 0) 0%, rgba(4, 12, 24, 1) 70%);
+    background:-o-linear-gradient(178deg, rgba(115, 0, 0, 0.87) 100%, rgba(0, 0, 0, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#730000', GradientType=1 );
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 0% 0%, rgb(83, 0, 0) 0%, rgba(4, 12, 24, 1) 70%);
+    background:-ms-linear-gradient(178deg, rgba(115, 0, 0, 0.87) 100%, rgba(0, 0, 0, 1) 100%);
 
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 0% 0%, rgb(83, 0, 0) 0%, rgba(4, 12, 24, 1) 70%);
+    /* global 94%+ browsers support */
+    background:linear-gradient(178deg, rgba(115, 0, 0, 0.87) 100%, rgba(0, 0, 0, 1) 100%);
 }
 
+.gardient__header{
+    
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(180deg, rgba(115, 0, 0, 0.87) 0%, rgba(4,12,24,255) 49%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(115, 0, 0, 0.87) 0%, rgba(4,12,24,255) 49%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(115, 0, 0, 0.87) 0%, rgba(4,12,24,255) 49%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#730000', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(115, 0, 0, 0.87) 0%, rgba(4,12,24,255) 49%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(115, 0, 0, 0.87) 0%, rgba(4,12,24,255) 49%);
+}
 .gradient__text {
     background: var(--gradient-text);
     background-clip: text;
