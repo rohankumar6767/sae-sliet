@@ -85,6 +85,7 @@
     border-bottom-right-radius: 1rem;
     background-color: var(--color-sae-sliet);
     transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 2rem red;
 }
 
 /* Media Query  */

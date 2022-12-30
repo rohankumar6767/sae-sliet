@@ -35,18 +35,6 @@ img{
     padding-bottom: 1rem;
 }
 
-.sae_gallery{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.sae_gallery h1{
-    color: #fff;
-    
-}
-
 /* Media Query */
 
 @media screen and (max-width: 990px) {

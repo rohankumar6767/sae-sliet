@@ -27,11 +27,14 @@
     height: 2rem;
     margin: 0.5rem 0.5rem;
     filter: grayscale(40%);
+    border-radius: 0.4rem;
 }
 .sae_footer_social_media_links a img:hover{
     width: 2rem;
     height: 2rem;
     margin: 0.5rem 0.5rem;
+    filter: grayscale(0%);
+    box-shadow: 0 0 2rem red;
 }
 
 .copyright_content{
@@ -44,6 +47,10 @@
 .copyright_content_para{
     color: rgb(255, 255, 255);
     padding: 0.2rem 8rem;
+}
+.copyright_content_para a:hover{
+    text-shadow: 0 0 2rem red;
+    color: greenyellow;
 }
 
 /* Media Query  */

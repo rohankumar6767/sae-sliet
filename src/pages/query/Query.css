@@ -40,8 +40,9 @@
     border-top: 2px solid var(--color-sae-sliet);
     padding: 0.5rem 1rem;
     padding-top: 1rem;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-radius: 1rem;
+    /* border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
     width: 25rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,10 +51,13 @@
 }
 .sae_query_form input:hover{
     border: 2px solid var(--color-sae-sliet);
+    box-shadow: 0 0 2rem red;
 }
 .sae_query_form textarea:hover{
     border: 2px solid var(--color-sae-sliet);
+    box-shadow: 0 0 2rem red;
 }
+
 .sae_query_form textarea{
     background: transparent;
     border: none;
@@ -62,8 +66,9 @@
     border-top: 2px solid var(--color-sae-sliet);
     padding: 0.5rem 1rem;
     padding-top: 1rem;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-radius: 1rem;
+    /* border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
     width: 25rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -84,6 +89,7 @@
 .sae_query_form a:hover{
     background-color: var(--color-sae-sliet);
     transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 2rem red;
 }
 .sae_query_faq{
     display: flex;

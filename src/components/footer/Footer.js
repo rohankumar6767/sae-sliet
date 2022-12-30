@@ -28,8 +28,8 @@ export default function Footer() {
             <p className='sae_footer_para'>Green Rangers | Junkyard Warriors | Juggernauts</p>
             {/* <p className='sae_footer_para'>Thanks For Visit. For more information follow the above mentioned social media links</p> */}
             <div className="copyright_content">
-                <p className='copyright_content_para'>Copyright Reserved @ 2023</p>
-                <p className='copyright_content_para'>Designed & Developed | <a href="/">Rohan Kumar</a></p>
+                <p className='copyright_content_para'>Copyright Reserved © 2023</p>
+                <p className='copyright_content_para'>Designed & Developed | <a href="https://www.linkedin.com/in/rohankumarchaudhary67/" target="blank">Rohan Kumar</a></p>
             </div>
         </div>
     )

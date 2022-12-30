@@ -1,0 +1,72 @@
+.sae_greenrangers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sae_greenrangers img{
+    height: 6rem;
+    width: 6rem;
+}
+.sae_greenrangers h1{
+    color: white;
+    font-size: 4rem;
+    font-family: Impact;
+    font-weight: 500;
+    font-style: italic;
+}
+.sae_greenrangers h3{
+    color: white;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 6rem;
+    text-align: center;
+}
+
+.sae_greenrangers_awards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.sae_greenrangers_awards h2{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    font-family: Impact;
+    font-weight: 500;
+    font-style: italic;
+}
+.sae_greenrangers_awards_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    margin-bottom: 2rem;
+}
+.awards_item_content{
+    text-align: justify;
+    padding-left: 1rem;
+}
+.awards_item_content p{
+    color: white;
+    font-size: 1.8rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+}z
+.awards_item_content ul{
+    color: wheat;
+    padding-left: 2rem;
+    font-size: 0.8rem;
+}
+.awards_item_image img{
+    width: 30rem;
+    border-radius: 2rem;
+    height: 20rem;
+}
+.awards_item_image img:hover{
+    box-shadow: 0 0 4rem red;
+}
