@@ -9,7 +9,7 @@ export default function Greenrangers() {
         <div className='sae_greenrangers  gardient__header'>
             <img src={greenrangers_logo} alt="" />
             <h1>Green Rangers</h1>
-            <h3>Team Green Rangers is part of SAE SLIET club. Green Rangers is to design, manufacture and test run the efficyle. Green Rangers always participate in every competition which is held on the efficycle. Team gives the exposure to the students about efficycle.</h3>
+            <h3>Team Green Rangers is a group of dedicated engineering students who have come together to participate in the Efficycle competition. Efficycle is an annual event organized by the Society of Automotive Engineers India, where teams from colleges across the country design and build energy-efficient human-powered vehicles.</h3>
             {/* <hr className='saeHR'/> */}
             <div className="sae_greenrangers_awards">
                 <h2>Events and Awards</h2>

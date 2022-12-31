@@ -1,6 +1,8 @@
 import React from 'react'
 import './Teams.css';
 import greenrangers_logo from '../../assets/team_greenrangers.png'
+import juggernauts_logo from '../../assets/juggernauts-transparent.png'
+import junkyard_logo from '../../assets/junkyard-transparent.png'
 import {Link} from 'react-router-dom';
 
 export default function Teams() {
@@ -17,14 +19,14 @@ export default function Teams() {
                 </div>
 
                 <div className="sae_team_container_box2 boxes">
-                    <img src={greenrangers_logo} alt="" />
+                    <img src={junkyard_logo} alt="" />
                     <h2>Junkyard Warriors</h2>
                     <p>Team Green Rangers is a group of dedicated engineering students who have come together to participate in the Efficycle competition. Efficycle is an annual event organized by the Society of Automotive Engineers India, where teams from colleges across the country design and build energy-efficient human-powered vehicles.</p>
                     <a href="v">Junkyard Warriors</a>
                 </div>
 
                 <div className="sae_team_container_box3 boxes">
-                    <img src={greenrangers_logo} alt="" />
+                    <img src={juggernauts_logo} alt="" />
                     <h2>JuggerNauts</h2>
                     <p>Team Green Rangers is a group of dedicated engineering students who have come together to participate in the Efficycle competition. Efficycle is an annual event organized by the Society of Automotive Engineers India, where teams from colleges across the country design and build energy-efficient human-powered vehicles.</p>
                     <a href="v">Juggernauts</a>
